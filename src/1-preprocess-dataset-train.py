@@ -3,6 +3,8 @@ import pandas as pd
 import sklearn.metrics as metrics
 import os
 
+#Este comentario simula la corrección de un bug detectado en el preprocesamiento de datos.
+#Se encontró un error en el proceso de limpieza de variables con alta correlación (debe eliminar la variable correlacionada con menor poder predictivo, pero eliminaba la que tenía mayor poder predictivo). Se aplica la corrección
 
 class preprocess_data:
     _output_path = ""
