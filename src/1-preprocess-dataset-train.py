@@ -5,6 +5,8 @@ import os
 
 #Esta línea va a simular que estamos trabajando en optimizar el código de preprocesamiento de datos
 #Esta 2da línea servirá de apoyo y documentación de los cambios en la optimización del script.
+#Esta 3ra línea termina de implementar la optimización en el código de preprocesamiento de datos.
+
 
 class preprocess_data:
     _output_path = ""
