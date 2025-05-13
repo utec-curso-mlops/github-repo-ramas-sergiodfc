@@ -1,6 +1,9 @@
 import fire
 import pandas as pd
 
+#Esta línea va a simular que estamos trabajando en optimizar el código de preprocesamiento de datos
+#Esta 2da línea servirá de apoyo y documentación de los cambios en la optimización del script.
+
 
 class prepare_data():
     _output_path = ""
